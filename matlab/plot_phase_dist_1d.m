@@ -26,4 +26,3 @@ hold on
 plot(phi,length(phases)/(4*pi^2*besseli(0,kappa))*exp(kappa*cos(phi-mu)),'r','linewidth',2);
 xlim([-pi,pi]);
 title(title_txt);
-
