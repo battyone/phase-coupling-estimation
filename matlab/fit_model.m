@@ -54,7 +54,7 @@ function K = fit_model(p, eps)
 % BASIS, AND THE UNIVERSITY OF CALIFORNIA HAS NO OBLIGATIONS TO PROVIDE
 % MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
-% parse addisional parameters
+% parse additional parameters
 if nargin < 2, eps = 0; end
 
 % prepare phaseinput, matrices, and parameters
